@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 1%;
+    background-color: #30364F;
+    color: #F0F0DB;
+}
+#container{
+    background-color: #F0F0DB;
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+}
+#nav-main{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+nav{
+    background-color: #E1D9BC;
+    width: 30%;
+}
+main{
+    width: 70%;
+    height: 100vh;
+    text-align: center;
+    font-size: calc(2px + 2vw);
+}
+main*{
+    margin: 2% 0
+}
+
+nav ul{
+    padding-left: 0;
+    list-style: none;
+}
+
+nav li{
+    border: 5px solid #ACBAC4;
+    width: 80%;
+    margin: 5% auto;
+    padding: 1%;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    font-size: calc(2px + 1.3vw);
+}
+#picts{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    margin: 5% 0;
+}
+main img{
+    max-width: 40%;
+}
+#North-Hall{
+    background-color: #8FA98B;
+}
+
+#North-Hall ul{
+    font-size: calc(5px + 1vw);
+}
+#gsu{
+    background-color: #6E86A6;
+}
+#gsu ul{
+    font-size: calc(5px + 1vw);
+}
+#BU{
+    background-color: #9B4A42;
+}
+#BU ul{
+    font-size: calc(5px + 1vw);
+}
+#num-1{
+    background-color: #C2D6E8;
+    font-size: calc(5px + 3vw);
+}
+#careers{
+    font-size: calc(2px + 2vw);
+}
+#lang{
+    font-size: calc(5px + 3vw);
+}
+#buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+
+@media screen and (max-width: 1000px) {
+    #nav-main{
+        flex-direction: column;
+    }
+    #nav, main{
+        width: 100%;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        width: 100%;
+    }
+
+}
+
+
+
